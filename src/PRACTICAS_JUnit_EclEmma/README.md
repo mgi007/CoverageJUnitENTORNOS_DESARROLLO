@@ -1,7 +1,8 @@
 README Subscripcion
 ===================
 
-###Alumno: Miguel García Insua
+Alumno: Miguel García Insua
+---------------------------
 
  * Si probamos el coverage tal y como lo dejas en el aula virtual podemos ver que las lineas
  	de código que no se ejecutan en la clase `Subscripcion` corresponden al método `cancel()`.  

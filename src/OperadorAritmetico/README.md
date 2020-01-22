@@ -1,7 +1,8 @@
 README OperadorAritmetico
 =========================
 
-###Alumno: Miguel García Insua
+Alumno: Miguel García Insua
+---------------------------
 
  * En la clase `OperadorAritmetico` añadimos el test que hay en el campus virtual.
 
