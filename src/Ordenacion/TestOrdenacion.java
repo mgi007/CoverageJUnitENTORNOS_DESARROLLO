@@ -120,7 +120,6 @@ public class TestOrdenacion {
 	@Test
 	void test10() {
 		String resultado = Ordenacion.ordenar3(4,1,8);
-		System.out.println();
 		String esperado = "8, 4, 1";
         assertEquals(resultado, esperado);
 	}
