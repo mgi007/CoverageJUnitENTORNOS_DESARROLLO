@@ -24,7 +24,7 @@ classDiagram
 
     class Empleado {
         +sueldo_bruto : double
-        calcularSalarioNeto() : double
+        calcularSalarioNeto() double
     }
 
     class Cliente {
