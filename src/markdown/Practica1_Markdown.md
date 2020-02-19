@@ -1,3 +1,5 @@
+[Enlace al diagrama pintado por mermaid](imagen.png)
+
 ``` mermaid
 classDiagram
 
