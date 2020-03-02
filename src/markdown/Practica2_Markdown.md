@@ -50,4 +50,21 @@ classDiagram
         +final: Date
     }
 
+    class EstadoCopia {
+        << enumeration >>
+        prestado
+        retrasado
+        biblioteca
+        reparacion
+    }
+
+class Genero {
+        << enumeration >>
+        novela
+        teatro
+        poesia
+        ensayo
+    }
+
+
 ```
