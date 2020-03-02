@@ -8,7 +8,7 @@ classDiagram
     
     Libro "1..*" -- "1..1" Autor
     Libro "1..1" -- "1..*" Copia
-    Copia "0..*" -- "0..*" Socio
+    Copia "0..3" -- "0..1" Socio
 
     Copia .. Prestamo
     Prestamo .. Socio
