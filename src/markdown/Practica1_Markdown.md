@@ -1,6 +1,7 @@
 [Enlace al diagrama pintado por mermaid](imagen1.png)
 
 ``` mermaid
+
 classDiagram
 
     Persona <|-- Cliente
@@ -11,9 +12,6 @@ classDiagram
     Empresa "1..*" *-- "1..*" Empleado : empleados
     Empleado "0..*" -- "0..*" Directivo : Subordinado
     
-    Cliente "1..*" --o "0..*" Empresa
-    Directivo "0.." ---
-
     class Persona {
         +nombre : String
         +edad : integer
@@ -37,4 +35,5 @@ classDiagram
     class Directivo {
         +categoria : String
     }
+
 ```
