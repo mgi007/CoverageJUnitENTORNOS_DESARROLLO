@@ -4,9 +4,9 @@
 ``` mermaid
 classDiagram
 
-    Avion -- Vuelo
+    Avion "1..1" -- "0..*" Vuelo
 
-    Vuelo -- Pasajero
+    Vuelo "0..*" -- "0..*" Pasajero
 
     Vuelo .. Billete
     Billete .. Pasajero
