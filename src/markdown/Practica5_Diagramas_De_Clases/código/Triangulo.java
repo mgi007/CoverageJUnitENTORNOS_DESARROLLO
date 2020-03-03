@@ -1,4 +1,4 @@
-package miguelClasesPOO;
+
 
 public class Triangulo extends Figura {
  
